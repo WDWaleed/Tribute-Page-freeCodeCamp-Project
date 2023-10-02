@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Montserrat:ital@0;1&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-slate-900: rgb(15 23 42);
+  --text-teal-300: rgb(94 234 212);
+  --text-teal-200: rgb(153 246 228);
+  --text: rgb(165 180 252);
+}
+
+html {
+  background-color: var(--bg-slate-900);
+  color: var(--text-teal-300);
+}
+
+main {
+  width: 100%;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#title-container {
+  margin-top: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+#title,
+h2 {
+  font-family: "Cinzel", "Montserrat", sans-serif;
+  text-align: center;
+}
+
+#image {
+  max-width: 100%;
+  aspect-ratio: 3840/2160;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#img-caption {
+  text-align: right;
+}
+
+#tribute-info {
+  max-width: 750px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Roboto, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+#more-information {
+  text-align: center;
+}
+
+#tribute-link {
+  color: orange;
+}
